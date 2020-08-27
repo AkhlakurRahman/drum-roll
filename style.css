@@ -78,7 +78,7 @@ svg {
   padding: 0.5rem;
   border: none;
   border-radius: 3px;
-  background-color: rgb(229, 229, 241);
+  background-color: rgb(135, 135, 143);
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.5s ease;
@@ -101,6 +101,31 @@ svg {
 select {
   padding: 0.5rem;
   font-size: 1rem;
+}
+
+.mute.active {
+  background-color: rgb(226, 221, 221);
+  color: rgb(199, 191, 191);
+}
+
+.tempo {
+  margin: 3rem;
+  width: 30%;
+}
+
+.tempo-slider {
+  padding: 0.2rem;
+  -webkit-appearance: none;
+  margin: 1rem 0;
+  position: relative;
+  width: 100%;
+  background-color: rgb(199, 191, 191);
+}
+
+.tempo p {
+  margin: 2rem;
+  font-size: 1.4rem;
+  text-align: center;
 }
 
 @keyframes playTrack {
